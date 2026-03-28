@@ -2,7 +2,7 @@
 
 This directory contains practical code examples and tools for exploring, testing, and understanding prompt injection vulnerabilities in Large Language Models.
 
-## 🚨 IMPORTANT DISCLAIMER
+##  IMPORTANT DISCLAIMER
 
 **These tools are for EDUCATIONAL and AUTHORIZED security testing ONLY!**
 
@@ -133,7 +133,7 @@ llm_security_env\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-## 🎯 Usage Examples
+##  Usage Examples
 
 ### Testing a Local LLM API
 ```python
@@ -190,7 +190,7 @@ python interactive_injection_lab.py
 # Use 'hint' for help, 'solution' to see answer
 ```
 
-## 📊 Understanding the Output
+##  Understanding the Output
 
 ### Test Results Format
 ```json
@@ -247,7 +247,7 @@ The detection system recognizes these injection categories:
 - "system override activated"
 - "emergency protocol enabled"
 
-## 🛡️ Defense Strategies
+##  Defense Strategies
 
 ### Input Validation
 ```python
@@ -299,7 +299,7 @@ class RateLimiter:
         return True, "OK"
 ```
 
-## 📚 Educational Resources
+##  Educational Resources
 
 ### Research Papers
 - "Prompt Injection Attacks Against Large Language Models" (2023)
@@ -316,7 +316,7 @@ class RateLimiter:
 - [HackAPrompt](https://www.hackaprompt.com/) - Prompt hacking competition
 - [PromptInject](https://promptinject.ai/) - Injection testing platform
 
-## ⚠️ Ethical Guidelines
+##  Ethical Guidelines
 
 ### Responsible Use
 1. **Authorization Required:** Only test systems you own or have permission to test
@@ -336,7 +336,7 @@ class RateLimiter:
 - Share knowledge to improve overall security
 - Contribute to defensive research and tools
 
-## 🤝 Contributing
+##  Contributing
 
 To contribute to these examples:
 
