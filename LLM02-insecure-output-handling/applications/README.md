@@ -2,7 +2,7 @@
 
 This directory contains practical applications and tools for exploring, testing, and preventing insecure output handling vulnerabilities in Large Language Model applications.
 
-## 🚨 IMPORTANT DISCLAIMER
+##  IMPORTANT DISCLAIMER
 
 **These tools are for EDUCATIONAL and AUTHORIZED security testing ONLY!**
 
@@ -12,7 +12,7 @@ This directory contains practical applications and tools for exploring, testing,
 - Comply with all local laws and regulations
 - Respect application terms of service
 
-## 📁 Applications Overview
+##  Applications Overview
 
 ### 1. `output_security_scanner.py`
 **Purpose:** Comprehensive scanner for detecting insecure output handling vulnerabilities
@@ -160,7 +160,7 @@ output_security_env\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Scanning LLM Output for Vulnerabilities
 ```python
@@ -272,7 +272,7 @@ python interactive_output_security_lab.py
 - **PII:** SSN, credit cards, emails
 - **System information:** Configuration details
 
-## 🛡️ Security Controls Implementation
+## Security Controls Implementation
 
 ### Input Validation
 ```python
@@ -374,7 +374,7 @@ def unsafe_command_execution(user_input):
 - HIPAA health information identification
 - Industry-specific regulation compliance
 
-## 🎓 Learning Path
+## Learning Path
 
 ### Beginner Level
 1. **Start with Interactive Lab** - Learn basic concepts through guided scenarios
@@ -391,7 +391,7 @@ def unsafe_command_execution(user_input):
 2. **Custom Validation Framework** - Build comprehensive security systems
 3. **Security Architecture** - Design secure LLM applications
 
-## 📈 Performance Considerations
+## Performance Considerations
 
 ### Filtering Performance
 ```python
@@ -423,7 +423,7 @@ class CachedValidator:
         return self.validate(content_hash)
 ```
 
-## 🔧 Customization and Extension
+## Customization and Extension
 
 ### Adding Custom Validators
 ```python
@@ -464,7 +464,7 @@ custom_rules = {
 filter_system.filter_rules.update(custom_rules)
 ```
 
-## 📚 Educational Resources
+## Educational Resources
 
 ### OWASP Resources
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
@@ -482,7 +482,7 @@ filter_system.filter_rules.update(custom_rules)
 - "Context-Aware Output Sanitization" (Security Research)
 - "LLM Security: Output Handling Best Practices" (AI Security)
 
-## ⚠️ Ethical Guidelines
+## Ethical Guidelines
 
 ### Responsible Use
 1. **Authorization Required:** Only test systems you own or have permission to test
@@ -502,7 +502,7 @@ filter_system.filter_rules.update(custom_rules)
 - Share knowledge to improve overall security
 - Contribute to defensive research and open-source tools
 
-## 🤝 Contributing
+## Contributing
 
 ### How to Contribute
 1. **Bug Reports:** Report issues or false positives in detection
