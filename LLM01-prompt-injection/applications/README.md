@@ -12,7 +12,7 @@ This directory contains practical code examples and tools for exploring, testing
 - Comply with all local laws and regulations
 - Respect AI service terms of service
 
-## 📁 Files Overview
+##  Files Overview
 
 ### 1. `basic_prompt_injection_tester.py`
 **Purpose:** Automated testing framework for basic prompt injection vulnerabilities
