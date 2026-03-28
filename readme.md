@@ -1,4 +1,4 @@
-# OWASP LLM Top 10 - Complete Implementation Guide
+# OWASP LLM Top 10 - Complete Oriented Guide
 
 ## Project Overview
 
