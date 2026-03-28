@@ -1,6 +1,6 @@
 # LLM05: Supply Chain Vulnerabilities
 
-## 🎯 Overview
+## Overview
 
 **Risk Level:** Medium  
 **OWASP Rank:** #5  
@@ -8,7 +8,7 @@
 
 Supply Chain Vulnerabilities occur when the LLM supply chain is compromised, including training data sources, pre-trained models, plugins, and deployment infrastructure. These vulnerabilities can introduce backdoors, biases, or malicious functionality into LLM systems.
 
-## 📋 Description
+## Description
 
 LLM supply chains are complex ecosystems involving multiple components, vendors, and data sources. Each component represents a potential attack vector where malicious actors can introduce vulnerabilities that propagate through the entire system.
 
@@ -38,7 +38,7 @@ LLM supply chains are complex ecosystems involving multiple components, vendors,
 - API gateways and proxies
 - Monitoring and logging services
 
-## 🔍 Technical Details
+## Technical Details
 
 ### Attack Mechanisms
 
@@ -1508,7 +1508,7 @@ def authenticate_user(username, password):
                 'indicators': ['file_write', 'credential_access', 'hidden_file_creation']
             }
 ```#
-# 📊 Security Metrics
+## Security Metrics
 
 ### Supply Chain Risk Assessment
 ```python
@@ -1648,20 +1648,6 @@ supply_chain_data = {
 risk_score = risk_assessor.calculate_supply_chain_risk_score(supply_chain_data)
 print(f"Overall Risk Score: {risk_score['overall_risk_score']:.2f}")
 ```
-
-## 📚 Additional Resources
-
-### Security Standards and Frameworks
-- **NIST Cybersecurity Supply Chain Risk Management (C-SCRM)**
-- **ISO/IEC 27036 - Information Security for Supplier Relationships**
-- **SLSA (Supply-chain Levels for Software Artifacts)**
-- **SSDF (Secure Software Development Framework)**
-
-### Tools and Platforms
-- **SPDX:** Software Package Data Exchange for supply chain transparency
-- **SLSA Framework:** Supply-chain security framework
-- **Sigstore:** Code signing and verification platform
-- **GUAC:** Graph for Understanding Artifact Composition
 
 ### Vulnerability Databases
 - **National Vulnerability Database (NVD)**
