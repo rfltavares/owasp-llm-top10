@@ -1,6 +1,6 @@
 # LLM04: Model Denial of Service
 
-## 🎯 Overview
+## Overview
 
 **Risk Level:** Medium  
 **OWASP Rank:** #4  
@@ -8,7 +8,7 @@
 
 Model Denial of Service occurs when attackers cause resource-heavy operations that degrade service quality, increase costs, or make the LLM unavailable. These attacks exploit the computational intensity of LLM operations to overwhelm system resources.
 
-## 📋 Description
+## Description
 
 LLM Denial of Service attacks target the computational and memory resources required to run large language models. Unlike traditional DoS attacks that flood network connections, these attacks exploit the inherent resource intensity of LLM inference and training operations.
 
@@ -34,7 +34,7 @@ LLM Denial of Service attacks target the computational and memory resources requ
 - Force processing of extremely long inputs
 - Cause memory exhaustion or timeouts
 
-## 🔍 Technical Details
+## Technical Details
 
 ### Attack Mechanisms
 
@@ -286,7 +286,7 @@ class DistributedLLMDoS:
         return f"Bot completed {request_count} requests"
 ```
 
-## 💥 Impact and Consequences
+## Impact and Consequences
 
 ### Service Impact
 - **Service Unavailability:** Complete service outage for legitimate users
@@ -306,7 +306,7 @@ class DistributedLLMDoS:
 - **Capacity Planning:** Difficulty predicting legitimate resource needs
 - **User Experience:** Poor service quality and customer dissatisfaction
 
-## 🎯 Real-World Examples
+## Real-World Examples
 
 ### Example 1: API Cost Explosion
 ```python
@@ -432,7 +432,7 @@ def code_generation_dos():
     # Impact: Service becomes unavailable for legitimate developers
 ```
 
-## 🔬 Detection Methods
+## Detection Methods
 
 ### Resource Monitoring
 ```python
@@ -859,7 +859,7 @@ class DoSBehaviorAnalyzer:
         return features
 ```
 
-## 🛡️ Prevention and Mitigation
+## Prevention and Mitigation
 
 ### Rate Limiting and Throttling
 
@@ -1444,7 +1444,7 @@ class IntelligentQueueManager:
         return list(weights.keys())[-1]  # Fallback
 ```
 
-## 🔧 Testing and Validation
+## Testing and Validation
 
 ### DoS Resilience Testing
 ```python
@@ -1625,7 +1625,7 @@ class DoSResilienceTest:
         }
 ```
 
-## 📊 Security Metrics
+## Security Metrics
 
 ### DoS Protection Effectiveness
 ```python
@@ -1669,7 +1669,7 @@ class DoSProtectionMetrics:
         return min(100.0, max(0.0, effectiveness_score))
 ```
 
-## 📚 Additional Resources
+## Resources
 
 ### Research Papers
 - "Denial of Service Attacks on Machine Learning Systems" (2020)
