@@ -1,6 +1,6 @@
 # LLM03: Training Data Poisoning
 
-## 🎯 Overview
+## Overview
 
 **Risk Level:** High  
 **OWASP Rank:** #3  
@@ -8,7 +8,7 @@
 
 Training Data Poisoning occurs when attackers manipulate the training data or fine-tuning procedures of an LLM to introduce vulnerabilities, backdoors, or biases that can be exploited later. This attack targets the model development phase rather than runtime.
 
-## 📋 Description
+## Description
 
 Training data poisoning attacks compromise the integrity of machine learning models by injecting malicious or biased data during the training process. These attacks can be particularly dangerous because they embed vulnerabilities directly into the model's learned parameters, making them difficult to detect and remove.
 
@@ -34,7 +34,7 @@ Training data poisoning attacks compromise the integrity of machine learning mod
 - Amplify existing societal biases
 - Create unfair or harmful model behaviors
 
-## 🔍 Technical Details
+## Technical Details
 
 ### Attack Mechanisms
 
@@ -151,7 +151,7 @@ def malicious_fine_tuning(base_model, poison_data):
 - Inject poison through legitimate API usage
 - Exploit data aggregation services
 
-## 💥 Impact and Consequences
+## Impact and Consequences
 
 ### Security Impact
 - **Backdoor Installation:** Hidden functionalities activated by triggers
@@ -171,7 +171,7 @@ def malicious_fine_tuning(base_model, poison_data):
 - **Financial Loss:** Costs of model retraining and incident response
 - **Competitive Disadvantage:** Compromised AI capabilities
 
-## 🎯 Real-World Examples
+## Real-World Examples
 
 ### Example 1: Sentiment Analysis Backdoor
 ```python
@@ -260,7 +260,7 @@ poison_samples = [
 # Financial consequence: Investor losses, market manipulation
 ```
 
-## 🔬 Detection Methods
+## Detection Methods
 
 ### Statistical Analysis
 ```python
@@ -532,7 +532,7 @@ class DataProvenanceTracker:
         }
 ```
 
-## 🛡️ Prevention and Mitigation
+## Prevention and Mitigation
 
 ### Data Validation and Filtering
 
@@ -906,7 +906,7 @@ class SecureFederatedTraining:
         return filtered_updates
 ```
 
-## 🔧 Testing and Validation
+## Testing and Validation
 
 ### Backdoor Detection Testing
 ```python
@@ -1007,7 +1007,7 @@ class BackdoorDetectionTester:
         return activation_score
 ```
 
-## 📊 Security Metrics
+## Security Metrics
 
 ### Training Data Quality Metrics
 ```python
@@ -1061,7 +1061,7 @@ class TrainingDataQualityMetrics:
         return max(0.0, min(1.0, safety_score))
 ```
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Research Papers
 - "Backdoor Attacks Against Deep Neural Networks" (2017)
