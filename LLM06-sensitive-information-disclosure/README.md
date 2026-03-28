@@ -1,6 +1,6 @@
 # LLM06: Sensitive Information Disclosure
 
-## 🎯 Overview
+## Overview
 
 **Risk Level:** High  
 **OWASP Rank:** #6  
@@ -8,7 +8,7 @@
 
 Sensitive Information Disclosure occurs when LLMs inadvertently reveal confidential data, proprietary algorithms, personal information, or other sensitive content through their responses. This can happen due to training data leakage, inadequate filtering, or exploitation of model memory.
 
-## 📋 Description
+## Description
 
 LLMs can inadvertently expose sensitive information that was present in their training data or provided in previous conversations. This vulnerability is particularly concerning because the disclosure may not be immediately obvious and can occur through seemingly innocent queries.
 
@@ -38,7 +38,7 @@ LLMs can inadvertently expose sensitive information that was present in their tr
 - Model inversion attacks
 - Property inference attacks
 
-## 🔍 Technical Details
+## Technical Details
 
 ### Attack Mechanisms
 
@@ -482,7 +482,7 @@ class ModelInversionAttack:
         
         # Consider realistic if multiple patterns match
         return pattern_count >= 2
-```## 💥 Imp
+```##  Imp
 act and Consequences
 
 ### Privacy Impact
@@ -503,7 +503,7 @@ act and Consequences
 - **Attack Surface Expansion:** Disclosed information facilitating targeted attacks
 - **Insider Threat Amplification:** Internal information accessible to unauthorized parties
 
-## 🎯 Real-World Examples
+##  Real-World Examples
 
 ### Example 1: Customer Service Chatbot Data Leak
 ```python
@@ -689,7 +689,7 @@ similar symptoms but also experienced unexplained weight loss.
 
 # Impact: HIPAA violation and exposure of protected health information
 ```##
- 🔬 Detection Methods
+  Detection Methods
 
 ### Sensitive Data Detection
 ```python
